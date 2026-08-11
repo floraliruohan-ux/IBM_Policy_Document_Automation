@@ -48,9 +48,13 @@ IBM_Policy_Document_Automation/
 └── analysis/
     ├── Exploratory_Data_Analysis.pdf
     └── Data_Visualization.pdf
+```
 
 ## Key Takeaway
 
 This project showed that reliable enterprise AI depends not only on model capability, but also on data quality, document structure, chunking, metadata, retrieval design, and human validation.
 
 The experience strengthened my understanding of how data engineering and AI can work together to turn complex policy documents into usable knowledge systems.
+
+**Ruohan Li**  
+[LinkedIn](www.linkedin.com/in/ruohanli-flora0930) 
