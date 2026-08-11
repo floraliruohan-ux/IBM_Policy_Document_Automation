@@ -1,26 +1,57 @@
 # IBM Policy Document Automation (EPLC Project)
 
-This repository presents one representative example of my work from the IBM Enterprise Policy Lifecycle (EPLC) practicum. 
-Additional analyses and document processing pipelines were conducted as part of the broader project but are not publicly released due to confidentiality.
+This repository presents a representative example of my work from the IBM Enterprise Policy Lifecycle (EPLC) practicum. Due to project confidentiality, only selected non-sensitive materials and examples are included.
 
-## Objective
-The goal of this project is to **analyze and structure U.S. government policy documents** for automation in retrieval and reasoning tasks.  
-I explored policy templates, acquisition forms, and regulatory datasets from the **U.S. Department of Health and Human Services (HHS)** to understand how narrative texts can be converted into structured, machine-readable metadata.
+## Project Overview
 
-## Contents
-- `data/Exploratory_Data_Analysis.pdf`  
-  A qualitative report summarizing the accessibility, structure, and metadata potential of five HHS policy sources.
-- `data/EPLC_SLA_MOU_Template.doc`  
-  An example of a Service Level Agreement / Memorandum of Understanding template from the EPLC policy archive.
-- `data/EPLC_SLA_MOU_Template.json`  
-  A structured JSON representation of the same document showing the extracted sections and hierarchical metadata.
-- `notebooks/policy_text_embedding_demo.ipynb`  
-  (To be added) Example notebook demonstrating document parsing, embedding, and retrieval using Python.
+The project explored how unstructured U.S. government policy documents can be transformed into structured, machine-readable data to support AI-powered retrieval and RAG-based question answering.
 
-## Context
-This project contributes to the broader effort of **policy knowledge automation**, aiming to improve accessibility, interoperability, and reasoning capabilities in government and institutional policy datasets.
+Using policy documents from the U.S. Department of Health and Human Services (HHS), I analyzed document structures, metadata patterns, and retrieval requirements to support the development of an enterprise AI Assistant.
 
-## 👩‍💻 Author
-**Ruohan Li**  
-Contact: floraliruohan@gmail.com  
-LinkedIn: [ruohanli-flora0930](https://www.linkedin.com/in/ruohanli-flora0930/)
+## My Role
+
+- Analyzed policy document structures and identified key metadata fields for downstream AI retrieval
+- Built Python-based workflows for document parsing, structuring, and data preprocessing
+- Supported the design of a RAG pipeline combining document embeddings, vector retrieval, and LLM-based question answering
+- Designed and tested prompts and evaluated model outputs across accuracy, consistency, and retrieval quality
+
+## AI / Data Workflow
+
+**Policy Documents → Parsing & Structuring → Metadata Extraction → Embeddings → Vector Retrieval → RAG → AI Assistant**
+
+The workflow was designed to improve the accessibility and retrievability of policy information while maintaining traceability to original source documents.
+
+## Representative Work
+
+### Exploratory Data Analysis
+`Exploratory Data Analysis.docx`
+
+Analyzed the accessibility, structure, and metadata potential of multiple HHS policy sources to assess their readiness for automated processing and retrieval.
+
+### Policy Document Structuring
+`EPLC_SLA_MOU_Template.doc`
+
+A representative Service Level Agreement / Memorandum of Understanding document from the EPLC policy archive.
+
+### Structured Metadata
+`EPLC_SLA_MOU_Template.json`
+
+Converted the original policy document into a structured JSON representation containing extracted sections and hierarchical metadata for downstream retrieval.
+
+## Why RAG?
+
+RAG was selected because policy documents are frequently updated and answers need to remain grounded in traceable source materials. Compared with relying solely on model fine-tuning, retrieval-based generation allows the knowledge base to be updated more efficiently while improving source transparency.
+
+## Key Takeaway
+
+This project showed me that successful enterprise AI applications depend not only on model capability, but also on document structure, data quality, retrieval design, and evaluation. The quality of the underlying knowledge pipeline directly shapes the reliability of the final AI experience.
+
+## Tech Stack
+
+`Python` · `RAG` · `LLM` · `NLP` · `Embeddings` · `Vector Retrieval` · `Prompt Engineering` · `JSON`
+
+## Author
+
+**Ruohan Li**
+
+LinkedIn: [ruohanli-flora0930](YOUR_LINKEDIN_URL)
