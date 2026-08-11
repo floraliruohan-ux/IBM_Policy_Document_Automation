@@ -42,6 +42,10 @@ Converted the original policy document into a structured JSON representation con
 
 RAG was selected because policy documents are frequently updated and answers need to remain grounded in traceable source materials. Compared with relying solely on model fine-tuning, retrieval-based generation allows the knowledge base to be updated more efficiently while improving source transparency.
 
+## AI Collaboration
+
+I used LLMs throughout the workflow to assist with code generation, document structuring, metadata extraction, prompt iteration, and debugging. I defined the processing logic and evaluation criteria, then reviewed and validated AI-generated outputs before incorporating them into the final pipeline.
+
 ## Key Takeaway
 
 This project showed me that successful enterprise AI applications depend not only on model capability, but also on document structure, data quality, retrieval design, and evaluation. The quality of the underlying knowledge pipeline directly shapes the reliability of the final AI experience.
